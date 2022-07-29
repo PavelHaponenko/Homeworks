@@ -1,0 +1,49 @@
+.square1 {
+    width: 250px;
+    height: 250px;
+    border: solid 1px;
+    background-color: crimson;
+    border-radius: 40px 40px 40px 40px;
+}
+.square2 {
+    width: 250px;
+    height: 250px;
+    border: solid 1px;
+    background-color: deepskyblue;
+    border-radius: 40px 40px 40px 40px;
+}
+.square3 {
+    width: 250px;
+    height: 250px;
+    border: solid 1px;
+    background-color: khaki;
+    border-radius: 40px 40px 40px 40px;
+}
+.square4 {
+    width: 250px;
+    height: 250px;
+    border: solid 1px;
+    background-color: fuchsia;
+    border-radius: 40px 40px 40px 40px;
+}
+.square5 {
+    width: 250px;
+    height: 250px;
+    border: solid 1px;
+    background-color: mediumturquoise;
+    border-radius: 40px 40px 40px 40px;
+}
+.square6 {
+    width: 250px;
+    height: 250px;
+    border: solid 1px;
+    background-color: saddlebrown;
+    border-radius: 40px 40px 40px 40px;
+}
+.square7 {
+    width: 250px;
+    height: 250px;
+    border: solid 1px;
+    background-color: yellow;
+    border-radius: 40px 40px 40px 40px;
+}
