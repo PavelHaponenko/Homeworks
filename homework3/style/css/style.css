@@ -1,5 +1,4 @@
 body{
-    display: flex;
     text-align: center;
     line-height: 30px;
     font-size: 20px;
@@ -9,186 +8,154 @@ body{
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    top: 8px;
-    left: 8px;
     color: white;
     font-family: 'BebasNeue';
+    float: left;
 }
 .square2{
     background-color: rgb(192,192,192);
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    left: 200px;
-    top: 8px;
     color: black;
     font-family: 'BhuTuka';
     font-weight: bold;
+    float: left;
 }
+
 .square3{
     background-color: #808080;
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    left: 392px;
-    top: 8px;
     color: white;
     font-family: 'Cairo';
+    float: left;
 }
+
 .square4{
     background-color: rgba(255, 255, 255, 1);
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    left: 584px;
-    top: 8px;
     color: black;
     font-family: 'Dosis';
+    float: left;
 }
 .square5{
     background-color: hsl(0,100%,25%);
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    left: 776px;
-    top: 8px;
     color: white;
     font-family: 'Heebo';
+    float: left;
 }
 .square6{
     background-color: hsla(0,100%,50%,1);
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    top: 8px;
-    left: 968px;
     color: white;
     font-family: 'Siliguri';
+    float: left;
 }
 .square7{
     background-color: purple;
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    top: 8px;
-    left: 1160px;
     color: white;
     font-family: 'Inconsolata';
+    float: left;
 }
 .square8{
     background-color: #ff00ff;
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    top: 110px;
-    left: 8px;
     color: white;
     font-family: 'Josefin';
+    float: left;
 }
 .square9{
     background-color: rgb(0,128,0);
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    left: 200px;
-    top: 110px;
     color: white;
     font-family: 'Kanit';
+    float: left;
 }
 .square10{
     background-color: rgba(0,255,0,1);
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    left: 392px;
-    top: 110px;
     color: black;
-    font-family: 'Libre';
+    font-family: 'Libre_Baskerville', monospace;
+    float: left;
 }
 .square11{
     background-color: hsl(60,100%,25%);
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    left: 584px;
-    top: 110px;
     color: white;
-    font-family: 'Mouse';
+    font-family: 'Mouse_Memoirs', serif;
+    float: left;
 }
 .square12{
     background-color: hsla(60,100%,50%,1);
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    left: 776px;
-    top: 110px;
     color: black;
-    font-family: 'Mulish';
+    font-family: 'Mulish', sans-serif;
+    float: left;
 }
 .square13{
     background-color: navy;
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    top: 110px;
-    left: 968px;
     color: white;
-    font-family: 'Nanum_Gothic';
+    font-family: 'Nanum_Gothic', monospace;
+    float: left;
 }
 .square14{
     background-color: #0000ff;
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    top: 110px;
-    left: 1160px;
     color: white;
-    font-family: 'Noto_Serif';
+    font-family: 'Noto_Serif', serif;
+    float: left;
 }
 .square15{
     background-color: rgb(0,128,128);
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    left: 8px;
-    top: 212px;
     color: white;
-    font-family: 'Oswald';
+    font-family: 'Oswald', monospace;
+    float: left;
 }
 .square16{
     background-color: rgba(0,255,255,1);
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    top: 212px;
-    left: 200px;
     color: black;
-    font-family: 'Tiro';
+    font-family: 'Tiro_Devanagari_Hindi', sans-serif;
+    float: left;
 }
 .square17{
     background-color: hsl(39,100%,50%);
     width: 190px;
     height: 100px;
     border: solid 1px black;
-    position: absolute;
-    top: 212px;
-    left: 392px;
     color: black;
-    font-family: 'Uchen';
+    font-family: 'Uchen', serif;
+    float: left;
 }
