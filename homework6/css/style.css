@@ -1,0 +1,40 @@
+body {
+    background: beige;
+    color: black;
+  }
+  
+  .table {
+    height: 100%;
+    display: table;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .header {
+    display: table-row;
+    height: 1px;
+    background:gray;
+  }
+  
+  .main {
+    height: 100%;
+    display: table;
+    width: 100%;
+  }
+  
+  .block {
+    display: table-cell;
+  }
+  
+  .sidebar {
+    width: 100px;
+    background: orange;
+  }
+  
+  .footer {
+    display: table-row;
+    height:1px;
+    background: green;
+    color: beige;
+    font-size: 15px;
+  }
