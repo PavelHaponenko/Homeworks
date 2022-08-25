@@ -1,0 +1,23 @@
+.star{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-image: url(../imgs/star1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main{
+    display: inline-block;
+    width: 800px;
+    height: 150px; 
+}
+
+.main.hover>.star{
+    background-image: url(../imgs/star1.png);
+}
+
+.star:hover~.star{
+    background-image: url(../imgs/star0.png);
+}
+
