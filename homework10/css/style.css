@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-color: beige;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+form{
+    flex-basis: 70vh;
+    padding: 32px;
+    background-color: blueviolet;
+    box-shadow: 0 0 32px rgba(0,0,0, 0.66);
+    border-radius: 25px;
+}
+input{
+    padding: 4px;
+    font-size: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-width: 1px 1px 1px 0;
+}
+input:focus{
+    outline: none;
+    background-color: #fff;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0, 0.2);
+}
+.group{
+    margin-bottom: 16px;
+    display: flex;
+}
+.group, .submit, .reset{
+    flex: 0 1 64px;
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    line-height: 1;
+    border-radius: 4px 0 0 4px;
+}
+.group input{
+    flex-grow: 1;
+}
+.group, .submit, .reset label{
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.submit, .reset{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+input[type="submit"]{
+    flex: 0 1 40%;
+    padding: 4px;
+    font-size: 1.2rem;
+    text-shadow: 0 1px 0 #fff;
+    background-color: #00DB92;
+    border-radius: 4px;
+    border: 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    color: #fff;
+}
+input[type="reset"]{
+    flex: 0 1 40%;
+    padding: 4px;
+    font-size: 1.2rem;
+    text-shadow: 0 1px 0 #fff;
+    background-color: #db2100;
+    border-radius: 4px;
+    border: 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+input[type="reset"]:hover{
+    color: #fff;
+}
+input[type="email"]:valid{
+    border-color: green;
+}
+input[type="email"]:invalid{
+    border-color: red;
+}
+
+
