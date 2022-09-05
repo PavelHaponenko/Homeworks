@@ -1,0 +1,35 @@
+.main{
+    display:grid;
+    grid-template-areas: 
+    "content"
+    "menu"; 
+    grid-template-columns: 2fr;
+}
+
+.menu{
+    grid-area: menu;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.content{
+    grid-area: content;
+    overflow: hidden;
+}
+
+.content::before{
+    display: none;
+}
+
+.football{
+    width: 340px;
+    height: 150px;
+}
+
+.header{
+    display: none;
+}
+
+.footer{
+    display: none;
+}

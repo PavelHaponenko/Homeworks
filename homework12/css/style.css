@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-color: #fff;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "header header"
+                        "menu content"
+                        "footer footer";
+}
+.header{
+    grid-area: header;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+.menu{
+    grid-area: menu;
+    background-color: gold;
+    padding: 10px;
+}
+.content{
+    grid-area: content;
+    padding: 10px;
+    position: relative;
+}
+.content::before{
+    content: '';
+    display: block;
+    position:absolute;
+    width: 50px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url(../imgs/ball.png);
+    opacity: 0.55;
+}
+.footer{
+    grid-area: footer;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+.football{
+    width: 450px;
+    height: 300px;
+    float: left;
+}
+h3{
+    text-align: center;
+}
+
