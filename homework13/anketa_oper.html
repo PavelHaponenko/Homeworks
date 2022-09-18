@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anketa_oper</title>
+</head>
+<body>
+    <script>
+        let name = prompt('Введите ваше имя')
+        let surname = prompt('Введите вашу фамилию')
+        let otch = prompt('Введите ваше отчество')
+        let age = prompt('Ваш возраст в годах')
+        let ageDate = age*365
+        let gender = confirm('Ваш пол мужской?')
+        gender == true ? gender = 'пол: мужской' : gender = 'пол: женский';
+        gender == true && age>=60 ? pensAge = 'да' : pensAge = 'нет'
+        gender != true && age>=55 ? pensAge = 'да' : pensAge = 'нет'
+
+
+        alert('ФИО:' + name + '' + surname + '' + otch +'\n\r' + 'возраст, лет:' + age + '\n\r' + 'возраст, дней:' + ageDate +'\n\r'+ gender +'\n\r'+ 'пенсионный возраст:' + pensAge)
+    </script>
+    </body>
+        </html>
